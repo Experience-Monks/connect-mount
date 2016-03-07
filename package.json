@@ -1,0 +1,43 @@
+{
+  "name": "connect-mount",
+  "version": "1.0.0",
+  "description": "this is like Connect's use() but as its own middleware",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "serve-static": "^1.10.2",
+    "simple-get": "^2.0.0",
+    "stacked": "^1.1.1",
+    "tape": "^4.5.1"
+  },
+  "scripts": {
+    "test": "node test.js | faucet"
+  },
+  "keywords": [
+    "mount",
+    "connect",
+    "use",
+    "route",
+    "router",
+    "path",
+    "url",
+    "request",
+    "stack",
+    "express"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jam3/connect-mount.git"
+  },
+  "homepage": "https://github.com/Jam3/connect-mount",
+  "bugs": {
+    "url": "https://github.com/Jam3/connect-mount/issues"
+  }
+}
